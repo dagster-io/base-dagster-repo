@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools>=61.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "my-location"
+version = "1!0+dev"
+dependencies = [
+    "dagster",
+    "dagster_cloud"
+]

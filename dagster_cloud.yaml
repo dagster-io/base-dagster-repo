@@ -1,0 +1,6 @@
+locations:
+  - location_name: my_location
+    image: dagstercodelocations.azurecr.io/locations:v1-mylocation
+    code_source:
+      package_name: my_location
+    working_directory: /opt/code_location
